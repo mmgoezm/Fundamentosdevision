@@ -5,8 +5,8 @@ import time
 from sklearn.cluster import KMeans
 
 
-num_clusters = 8
-imagen = cv2.imread("2.jpg")
+num_clusters = 5
+imagen = cv2.imread("3.jpg")
 imagen = cv2.cvtColor(imagen, cv2.COLOR_BGR2RGB) # Cambiar BGR a RGB
 imagen = cv2.resize(imagen, (1200, 800))
 original_shape = imagen.shape[:2] # Guardar la forma original

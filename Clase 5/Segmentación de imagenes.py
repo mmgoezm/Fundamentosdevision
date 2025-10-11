@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
-img = cv2.imread('3.jpg')
+img = cv2.imread('1.jpg')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) #conversión a RGB
 img = cv2.resize(img, (1200, 800))
 
